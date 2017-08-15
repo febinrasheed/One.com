@@ -6,7 +6,7 @@ This is a angular 4 project and needs node and npm for local installation.
 ## Steps for Cloning and running this project.
 1) Clone the url: https://github.com/febinrasheed/One.com.git
 2) Run npm install in One.com folder.
-3) Rum npm start for starting the server once all dependencies are installed correctly.
+3) Run npm start for starting the server once all dependencies are installed correctly.
 4) App can be accessed at this URL: http://localhost:4200/
 
 
