@@ -15,9 +15,9 @@ export class AppComponent {
   showPath = false;
 
   constructor(public treeLookupCode: TreeLookupCode) {
+    /* Write the result back to the screen*/
     treeLookupCode.pathFound$.subscribe(
       path => {
-        console.log(path);
         let pathObject: PathObject = path;
         this.searchResult = pathObject.path;
         this.isPathFound = pathObject.isPathFound;
@@ -26,6 +26,7 @@ export class AppComponent {
     );
   }
 
+  /* Trigger search from UI */
   searchForElement(val: string): void {
     this.showPath = false;
     this.treeLookupCode.searchForElement(val);
