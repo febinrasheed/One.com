@@ -1,0 +1,33 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="container">
+  <div class="row mt-3 mb-3">
+    <div class="col-md-4 header-logo"></div>
+    <div class="col-md-8">
+      <h3>
+        Welcome to {{title}}!
+      </h3>
+    </div>
+    <hr>
+  </div>
+
+  <div class="row search-area">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label for="searchBox"> Search Box </label>
+        <input class="form-control" name="searchBox" #searchBox>
+      </div>
+      <button class="btn btn-primary" (click)="searchForElement(searchBox.value)">Search!</button>
+    </div>
+    <div class="clearfix"></div>
+    
+    <div class="col-md-8">
+      <div class="form-group">
+        <label>Search Result Area </label>
+        <p> 
+          <span class="alert" [hidden]="!showPath" [ngClass]="{ 'alert-success': isPathFound, 'alert-danger': !isPathFound }"><strong>Path:</strong> {{searchResult}} </span>
+        </p>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>

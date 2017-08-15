@@ -1,0 +1,12 @@
+.header-logo {
+    width: 227px;
+    height: 62px;
+    padding: 1rem;
+    background-image: url(https://www.one.com/static/images/onecom/2017/Common/onecomlogo.svg)
+}
+
+.search-area {
+    background-color: #f6f9fa!important;
+    height: 400px;
+    padding: 2rem;
+}
