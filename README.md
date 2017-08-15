@@ -6,8 +6,9 @@ This is a angular 4 project and needs node and npm for local installation.
 ## Steps for Cloning and running this project.
 1) Clone the url: https://github.com/febinrasheed/One.com.git
 2) Run npm install in One.com folder.
-3) Run npm start for starting the server once all dependencies are installed correctly.
-4) App can be accessed at this URL: http://localhost:4200/
+3) Run npm install --save bootstrap@4.0.0-alpha.6. This step is required to install bootstrap correctly.
+4) Run npm start for starting the server once all dependencies are installed correctly.
+5) App can be accessed at this URL: http://localhost:4200/
 
 
 ## Development server
